@@ -11,5 +11,5 @@ crate-type = ["dylib"]
 
 [dependencies]
 lazy_static = "1.4.0"
-rustler = "0.21.0"
-rocksdb = { git = "https://github.com/Elzor/rust-rocksdb.git", branch = "stable_5.14.2" }
+rustler = { git = "https://github.com/vihu/rustler.git", branch = "rg/binary-ref" }
+rocksdb = "0.14.0"
