@@ -253,7 +253,7 @@ version = "0.2.5"
 dependencies = [
  "lazy_static 1.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "rocksdb 0.14.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "rustler 0.22.0-rc.0 (git+https://github.com/vihu/rustler.git?branch=rg/binary-ref)",
+ "rustler 0.22.0-rc.0 (git+https://github.com/vihu/rustler.git)",
 ]
 
 [[package]]
@@ -273,17 +273,17 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "rustler"
 version = "0.22.0-rc.0"
-source = "git+https://github.com/vihu/rustler.git?branch=rg/binary-ref#5221a9b049fcaff6eea54c43c58e4112d0160154"
+source = "git+https://github.com/vihu/rustler.git#96706034f5a92394c8cf560a0687deeef4ceecbb"
 dependencies = [
  "lazy_static 1.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "rustler_codegen 0.22.0-rc.0 (git+https://github.com/vihu/rustler.git?branch=rg/binary-ref)",
- "rustler_sys 2.1.0 (git+https://github.com/vihu/rustler.git?branch=rg/binary-ref)",
+ "rustler_codegen 0.22.0-rc.0 (git+https://github.com/vihu/rustler.git)",
+ "rustler_sys 2.1.0 (git+https://github.com/vihu/rustler.git)",
 ]
 
 [[package]]
 name = "rustler_codegen"
 version = "0.22.0-rc.0"
-source = "git+https://github.com/vihu/rustler.git?branch=rg/binary-ref#5221a9b049fcaff6eea54c43c58e4112d0160154"
+source = "git+https://github.com/vihu/rustler.git#96706034f5a92394c8cf560a0687deeef4ceecbb"
 dependencies = [
  "heck 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "proc-macro2 1.0.12 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -294,7 +294,7 @@ dependencies = [
 [[package]]
 name = "rustler_sys"
 version = "2.1.0"
-source = "git+https://github.com/vihu/rustler.git?branch=rg/binary-ref#5221a9b049fcaff6eea54c43c58e4112d0160154"
+source = "git+https://github.com/vihu/rustler.git#96706034f5a92394c8cf560a0687deeef4ceecbb"
 dependencies = [
  "unreachable 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
@@ -449,9 +449,9 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 "checksum regex-syntax 0.6.13 (registry+https://github.com/rust-lang/crates.io-index)" = "e734e891f5b408a29efbf8309e656876276f49ab6a6ac208600b4419bd893d90"
 "checksum rocksdb 0.14.0 (registry+https://github.com/rust-lang/crates.io-index)" = "61aa17a99a2413cd71c1106691bf59dad7de0cd5099127f90e9d99c429c40d4a"
 "checksum rustc-hash 1.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "08d43f7aa6b08d49f382cde6a7982047c3426db949b1424bc4b7ec9ae12c6ce2"
-"checksum rustler 0.22.0-rc.0 (git+https://github.com/vihu/rustler.git?branch=rg/binary-ref)" = "<none>"
-"checksum rustler_codegen 0.22.0-rc.0 (git+https://github.com/vihu/rustler.git?branch=rg/binary-ref)" = "<none>"
-"checksum rustler_sys 2.1.0 (git+https://github.com/vihu/rustler.git?branch=rg/binary-ref)" = "<none>"
+"checksum rustler 0.22.0-rc.0 (git+https://github.com/vihu/rustler.git)" = "<none>"
+"checksum rustler_codegen 0.22.0-rc.0 (git+https://github.com/vihu/rustler.git)" = "<none>"
+"checksum rustler_sys 2.1.0 (git+https://github.com/vihu/rustler.git)" = "<none>"
 "checksum shlex 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "7fdf1b9db47230893d76faad238fd6097fd6d6a9245cd7a4d90dbd639536bbd2"
 "checksum strsim 0.8.0 (registry+https://github.com/rust-lang/crates.io-index)" = "8ea5119cdb4c55b55d432abb513a0429384878c15dde60cc77b1c99de1a95a6a"
 "checksum syn 1.0.19 (registry+https://github.com/rust-lang/crates.io-index)" = "e8e5aa70697bb26ee62214ae3288465ecec0000f05182f039b477001f08f5ae7"
